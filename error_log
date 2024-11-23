@@ -1,0 +1,62 @@
+[02-Jun-2023 05:43:48 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 29
+[02-Jun-2023 05:47:32 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 17
+[02-Jun-2023 05:47:33 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 17
+[02-Jun-2023 05:47:34 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 17
+[02-Jun-2023 05:47:36 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 17
+[02-Jun-2023 05:47:38 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 17
+[02-Jun-2023 05:47:40 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 17
+[02-Jun-2023 05:47:41 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 17
+[02-Jun-2023 05:48:12 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 13
+[02-Jun-2023 05:48:23 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 13
+[02-Jun-2023 05:51:25 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 12
+[02-Jun-2023 05:55:59 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 12
+[02-Jun-2023 05:56:00 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 12
+[02-Jun-2023 05:56:00 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 12
+[02-Jun-2023 05:56:00 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 12
+[02-Jun-2023 05:56:03 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 12
+[02-Jun-2023 05:57:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/cromteks/public_html/mail.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/cromteks/public_html/mail.php on line 3
+[02-Jun-2023 06:00:55 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/cromteks/public_html/mail.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/cromteks/public_html/mail.php on line 3
+[02-Jun-2023 06:03:00 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 21
+[02-Jun-2023 06:15:12 UTC] PHP Warning:  mail() has been disabled for security reasons in /home/cromteks/public_html/mail.php on line 9
+[05-Jul-2024 07:12:25 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 3
+[05-Jul-2024 07:12:25 UTC] PHP Warning:  Undefined array key "name" in /home/cromteks/public_html/mail.php on line 4
+[05-Jul-2024 07:12:25 UTC] PHP Warning:  Undefined array key "mobile" in /home/cromteks/public_html/mail.php on line 5
+[05-Jul-2024 07:12:25 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 6
+[05-Jul-2024 07:12:25 UTC] PHP Warning:  Undefined array key "comp" in /home/cromteks/public_html/mail.php on line 7
+[05-Jul-2024 07:12:25 UTC] PHP Warning:  Undefined array key "query" in /home/cromteks/public_html/mail.php on line 8
+[03-Aug-2024 18:12:41 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 3
+[03-Aug-2024 18:12:41 UTC] PHP Warning:  Undefined array key "name" in /home/cromteks/public_html/mail.php on line 4
+[03-Aug-2024 18:12:41 UTC] PHP Warning:  Undefined array key "mobile" in /home/cromteks/public_html/mail.php on line 5
+[03-Aug-2024 18:12:41 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 6
+[03-Aug-2024 18:12:41 UTC] PHP Warning:  Undefined array key "comp" in /home/cromteks/public_html/mail.php on line 7
+[03-Aug-2024 18:12:41 UTC] PHP Warning:  Undefined array key "query" in /home/cromteks/public_html/mail.php on line 8
+[30-Aug-2024 02:14:43 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 3
+[30-Aug-2024 02:14:43 UTC] PHP Warning:  Undefined array key "name" in /home/cromteks/public_html/mail.php on line 4
+[30-Aug-2024 02:14:43 UTC] PHP Warning:  Undefined array key "mobile" in /home/cromteks/public_html/mail.php on line 5
+[30-Aug-2024 02:14:43 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 6
+[30-Aug-2024 02:14:43 UTC] PHP Warning:  Undefined array key "comp" in /home/cromteks/public_html/mail.php on line 7
+[30-Aug-2024 02:14:43 UTC] PHP Warning:  Undefined array key "query" in /home/cromteks/public_html/mail.php on line 8
+[05-Sep-2024 18:11:51 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 3
+[05-Sep-2024 18:11:51 UTC] PHP Warning:  Undefined array key "name" in /home/cromteks/public_html/mail.php on line 4
+[05-Sep-2024 18:11:51 UTC] PHP Warning:  Undefined array key "mobile" in /home/cromteks/public_html/mail.php on line 5
+[05-Sep-2024 18:11:51 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 6
+[05-Sep-2024 18:11:51 UTC] PHP Warning:  Undefined array key "comp" in /home/cromteks/public_html/mail.php on line 7
+[05-Sep-2024 18:11:51 UTC] PHP Warning:  Undefined array key "query" in /home/cromteks/public_html/mail.php on line 8
+[05-Sep-2024 18:49:09 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 3
+[05-Sep-2024 18:49:09 UTC] PHP Warning:  Undefined array key "name" in /home/cromteks/public_html/mail.php on line 4
+[05-Sep-2024 18:49:09 UTC] PHP Warning:  Undefined array key "mobile" in /home/cromteks/public_html/mail.php on line 5
+[05-Sep-2024 18:49:09 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 6
+[05-Sep-2024 18:49:09 UTC] PHP Warning:  Undefined array key "comp" in /home/cromteks/public_html/mail.php on line 7
+[05-Sep-2024 18:49:09 UTC] PHP Warning:  Undefined array key "query" in /home/cromteks/public_html/mail.php on line 8
+[05-Sep-2024 20:01:07 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 3
+[05-Sep-2024 20:01:07 UTC] PHP Warning:  Undefined array key "name" in /home/cromteks/public_html/mail.php on line 4
+[05-Sep-2024 20:01:07 UTC] PHP Warning:  Undefined array key "mobile" in /home/cromteks/public_html/mail.php on line 5
+[05-Sep-2024 20:01:07 UTC] PHP Warning:  Undefined array key "email" in /home/cromteks/public_html/mail.php on line 6
+[05-Sep-2024 20:01:07 UTC] PHP Warning:  Undefined array key "comp" in /home/cromteks/public_html/mail.php on line 7
+[05-Sep-2024 20:01:07 UTC] PHP Warning:  Undefined array key "query" in /home/cromteks/public_html/mail.php on line 8
