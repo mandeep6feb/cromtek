@@ -2270,3 +2270,16 @@ label.checkbox-lable {
     border: 1px solid #ffa712;
     font-weight: normal;
 }
+
+
+.footer-anchor{
+    list-style: none;
+    margin-left: -250px;
+    margin-top: 10px;
+    padding: 0px;
+    text-align: center;
+    
+}
+.footer-tag{
+    margin: 10px;
+}
