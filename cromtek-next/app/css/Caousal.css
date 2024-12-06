@@ -1,0 +1,29 @@
+.carousel {
+
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Hide overflowed content */
+  }
+  
+  .carouselSlides {
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s ease-in-out; /* Smooth transition */
+  }
+  
+  .slide {
+    width: 100%; /* Each slide takes full width */
+    flex-shrink: 0; /* Prevent shrinking */
+  }
+  
+  .slide img {
+    width: 100%; /* Ensure images take up the full width of the container */
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel {
+      height: 300px; /* Adjust for smaller screen sizes */
+    }
+  }
+  
