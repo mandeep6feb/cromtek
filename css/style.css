@@ -2274,12 +2274,13 @@ label.checkbox-lable {
 
 .footer-anchor{
     list-style: none;
-    margin-left: -250px;
+    margin-left: -230px;
     margin-top: 10px;
     padding: 0px;
     text-align: center;
     
 }
 .footer-tag{
-    margin: 10px;
+    margin: 5px;
+    font-size: 33px;
 }
