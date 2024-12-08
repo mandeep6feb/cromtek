@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -18,6 +19,7 @@
     "font-awesome": "^4.7.0",
     "lucide-react": "^0.462.0",
     "next": "15.0.3",
+    "nodemailer": "^6.9.16",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "swiper": "^11.1.15",

@@ -29,6 +29,8 @@ export default function Footersection() {
                             <li><Link href="/Mobileapp">Mobility</Link></li>
                             <li><Link href="/Ecommerce">E-commerce</Link></li>
                             <li><Link href="/Contact">Contact Us</Link></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/cromtek-solutions-pvt-ltd/">Linkdin</a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/cromteksolutions?igsh=ZDhtYXh6ZzZ4eG95">Instagram</a></li>
                         </ul>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ export default function Ecommerce(){
                 {/* <!-- crumbs --> */}
                 <div className="row crumbs">
                     <div className="col-md-12">
-                        <a href="index.html">Home</a> / E-COMMERCE DESIGN AND DEVELOPMENT
+                        <a href="/">Home</a> / E-COMMERCE DESIGN AND DEVELOPMENT
                     </div>
                 </div>
                 {/* <!-- End crumbs --> */}
@@ -25,7 +25,7 @@ export default function Ecommerce(){
                 {/* <!-- Title - Search--> */}
                 <div className="row title">
                     {/* <!-- Title --> */}
-                    <div className="col-md-9">
+                    <div className="col-md-10">
                         <h1>E-COMMERCE DESIGN AND DEVELOPMENT
                             <span className="subtitle-section">
                                 Your Store Online

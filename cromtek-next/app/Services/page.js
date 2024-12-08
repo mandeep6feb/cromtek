@@ -60,7 +60,7 @@ export default function Services(){
             <div className="paddings">
                 <div className="container">
 
-                    <div className="row">
+                    <div className="row" id='Services#webDevelopment'>
                         <div className="col-md-8">
                             <div id="web_cont">
                                 <h2>Web Application Development</h2>
@@ -79,7 +79,7 @@ export default function Services(){
                         <div className="col-md-4">
                             <div id="mobile_img" className="content-img"><img src="/page_mobile_app.png" alt="Mobile Application Development" /></div>
                         </div>
-                        <div className="col-md-8" id='/mobiledevelopment'>
+                        <div className="col-md-8" id='Services#mobiledevelopment'>
                             <div id="mobile_cont">
                                 <h2>Mobile Application Development</h2>
                                 <p className="service-p">We specialize in development of Mobile Applications Native or Hybrid Technologies as suitable to given business needs and use cases. We created application which can work online or offline as per need by storing the data
@@ -92,7 +92,7 @@ export default function Services(){
                     </div>
 
 
-                    <div className="row">
+                    <div className="row" id='services#custom_solution'>
                         <div className="col-md-8">
                             <div id="application_cont">
                                 <h2>Custom ERP Solution Developments</h2>
@@ -231,6 +231,71 @@ export default function Services(){
                     </div>
                     {/* <!--<div className="col-md-4"><a id="Resource"><div className="content-img"><img src="images/web-development.png" alt="Resource Augmentations" /></div></a></div>--> */}
                 </div>
+                <div class="row" id="Web3">
+                    <div class="col-md-12">
+                        <div>
+                            <h2>Web3 Solution With Smart Wallet</h2>
+                            <p class="service-p">Decentralizing the digital landscape with cutting-edge blockchain technology, secure smart contracts, and innovative dApps. 
+                                Web3 is a revolution leading us toward a new digital era, powered by blockchain technology. It liberates users from centralized systems 
+                                while ensuring complete data security and transparency. With Web3, you can leverage smart contracts, decentralized applications (DApps), and 
+                                crypto-based services seamlessly. Our services help you understand Web3, integrate it into your website or 
+                                application, and deliver secure, efficient solutions. Let’s take your business to new heights with the power of Web3!
+                            </p>
+                            <ul class="su_menu">
+                                <li>Design and implement secure, scalable blockchain networks tailored to your needs, ensuring transparency and efficiency.</li>
+                                <li>Automate processes and enforce trust with robust, tamper-proof smart contracts that deliver seamless execution.</li>
+                                <li>Build user-centric, decentralized applications that redefine how users interact with the digital world.</li>
+                                <li>Protect your Web3 ecosystem with advanced security protocols and threat mitigation strategies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    {/* <!--<div class="col-md-4"><a id="Resource"><div class="content-img"><img src="images/web-development.png" alt="Resource Augmentations" /></div></a></div>--> */}
+                </div>
+
+                <div class="row" id="fintech">
+                    <div class="col-md-12" >
+                        <div>
+                            <h2>Fintech Solutions</h2>
+                            <p class="service-p">Welcome to Our Fintech Services
+                                Revolutionizing Financial Technology for You
+                                In today’s fast-paced world, financial technology (Fintech) services have become essential for businesses and
+                                 individuals. Our cutting-edge solutions make financial transactions faster, safer, and more efficient, ensuring you stay ahead in the digital era.
+                            </p>
+                            <ul class="su_menu">
+                                <li>P2P lending, or Peer-to-Peer lending , is a revolutionary fintech service that connects borrowers and lenders directly through digital platforms</li>
+                                <li>Seamlessly process payments through secure digital platforms.</li>
+                                <li>Convenient loans for individuals and businesses.</li>
+                                <li>Experience hassle-free insurance solutions with simplified policy purchases and claim management, powered by advanced AI and data analytics.</li>
+                                <li>Non-Banking Financial Companies (NBFCs) are pivotal in the fintech ecosystem, offering tailored financial solutions without the constraints of traditional banking. They leverage advanced technologies to provide loans, insurance, investment opportunities, and credit products to underserved segments.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    {/* <!--<div class="col-md-4"><a id="Resource"><div class="content-img"><img src="images/web-development.png" alt="Resource Augmentations" /></div></a></div>--> */}
+                </div>
+
+                <div class="row"id="fintech" >
+                    <div class="col-md-12">
+                        <div>
+                            <h2>Power BI Developer</h2>
+                            <p class="service-p">Transform Your Data into Actionable Insights with Our Power BI Development Services.
+                                Unlock the true potential of your data with our expert Power BI development services. Our skilled developers 
+                                specialize in creating custom dashboards, data models, and interactive reports that empower businesses to make informed decisions.
+                                 Whether you need seamless data integration, real-time analytics, or advanced data visualization, we deliver tailored solutions to 
+                                 meet your unique needs. With a focus on performance optimization and scalability, our Power BI services are perfect for businesses 
+                                 of all sizes. Partner with us to transform complex data into meaningful insights and drive your business forward with confidence.
+                            </p>
+                            <ul class="su_menu">
+                                <li>We create interactive and visually stunning dashboards tailored to your specific business needs.</li>
+                                <li>Seamlessly integrate data from multiple sources to provide a unified view of your business performance.</li>
+                                <li>Leverage our expertise in DAX (Data Analysis Expressions) and Power Query to uncover deep insights into your data.</li>
+                                <li>Leverage our expertise in DAX (Data Analysis Expressions) and Power Query to uncover deep insights into your data.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    {/* <!--<div class="col-md-4"><a id="Resource"><div class="content-img"><img src="images/web-development.png" alt="Resource Augmentations" /></div></a></div>--> */}
+                </div>
+
             </div>
             {/* <!-- End Container--> */}
     </div>

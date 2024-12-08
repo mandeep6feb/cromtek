@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react'
+import 'animate.css';
 import './css/animations/animate.css'
 import './css/responsive.css'
 // import './revolution_slider/css/revslider.css'
@@ -14,49 +14,7 @@ import Socialsection from './components/Socialsection'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 export default function Home() {
-    const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({ delay: 5000 })])
-
-   
-
-    const sliderdata = [
-        {
-            id:1,
-            image: "/slider/slide-3.jpg",
-            p1: "Mobile Applications", 
-            p2: "IOS, Android, <br /> Blackberry, Windows",
-            p3: "Hands solutions you can carry in your pocket. <br /> We design robust native and mobile web applications.",
-            image1: "/slider/slide-3-1.png",
-            image2: "/slider/slide-3-2.png",
-            image3: "/slider/slide-3-3.png",
-            btn:"Learn More"
-        },
-        {
-            id:2,
-            image: "/slider/development.jpg",
-            p1:"Content Management Systems",
-            p2:"Joomla, Wordpress, <br />Drupal, Custom",
-            p3:"Skins for open source or custom developed <br />solutions, we design and you control",
-            btn:"Learn More"
-        },
-        {
-            id:3,
-            image: "/slider/slide-3.jpg",
-            p1: "E Commerce",
-            p2: "Maximize Your online business",
-            p3: "We help you convert ideas into an online business, <br />weather it be a custom solution or harnessing the <br />power of an open source solution.",
-            image1: "/slider/laptop.png",
-            image2: "/slider/e-commerce.png",
-            btn:"Learn More"
-        },
-        {
-            id:4,
-          image: "/slider/slider-bg.jpg",
-          p1:"Software Outsourcing",
-          p2:"Development, <br />Maintenance, Migration",
-          p3:"Creative and cost effective custom software solutions in <br /> multiple technologies. We partner with you to provide reliable and <br /> quality services to enable you to focus and develop <br /> your core business.",
-          btn:"Learn More"
-        }
-    ]
+    const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({ delay: 6000 })])
 
     return (
         <>
@@ -64,92 +22,46 @@ export default function Home() {
             <div >
                 {/* <!--================================Revolution SLIDER SECTION==========================================--> */}
 
-
                 <div className="embla" ref={emblaRef}>
                     <div className="embla__container" >
-                        {sliderdata.map((data,index) => {
-                            return (
-                                <>
-                                    <div key={data.id} className="embla__slide">
-                                        <img src={data.image} alt="" />
-                                        <img src={data.image1} alt="" className='slide1img2' />
-                                        <img src={data.image2} alt="" className='slide1img3'/>
-                                        <img src={data.image3} alt="" className='slideimg1'/>
-                                        <p className="slide1p1">{data.p1}</p>
-                                        <p className="slide1p2">{data.p2}</p>
-                                        <p className="slide1p3">{data.p3}</p>
-                                        <a  className="button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhite" href="/Services">{data.btn}</a>
-                                    </div>
-                                </>
-                            )
-                        })}
 
-                        {/* <img src="/slider/slide-3.jpg" alt="Mobile Application" /> */}
-                        {/* <img src="/slider/slide-3-1.png" alt="Web Development Company" />
-                            <img src="/slider/slide-3-2.png" alt="slide" />
-                            <img src="/slider/slide-3-3.png" alt="slide" /> */}
-                        {/* <p className="slide1p1">Mobile Applications</p>
-                            <p className='slide1p2'>IOS, Android, <br /> Blackberry, Windows</p>
-                            <p className='slide1p3'> "Handy"solutions you can carry in your pocket. <br /> We design robust native and mobile web applications.</p>
-                            <a className="button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhite" href="/Services">Learn More</a> */}
+                        <div className="embla__slide slide1">
+                            <img src="/slider/slide-3.jpg" alt="Mobile Application" />
+                            <img src="/slider/slide-3-1.png" alt="Web Development Company" className='animate__animated animate__fadeInRight slideimg1' style={{ animationDuration: '1s', animationDelay: '0.5s' }} />
+                            <img src="/slider/slide-3-2.png" alt="slide" className='animate__animated animate__fadeInRight slide1img2' style={{ animationDuration: '1.5s', animationDelay: '0.5s' }}/>
+                            <img src="/slider/slide-3-3.png" alt="slide" className='animate__animated animate__fadeInRight slide1img3' style={{ animationDuration: '2s', animationDelay: '0.5s' }}/>
+                            <p className="animate__animated animate__fadeInLeft slide1p1" style={{ animationDuration: '1s', animationDelay: '1s' }}>Mobile Applications</p>
+                            <p className='animate__animated animate__fadeInLeft slide1p2' style={{ animationDuration: '1.5s', animationDelay: '1s' }}>IOS, Android, <br /> Blackberry, Windows</p>
+                            <p className='animate__animated animate__fadeInLeft slide1p3' style={{ animationDuration: '2s', animationDelay: '1s' }}> "Handy"solutions you can carry in your pocket. <br /> We design robust native and mobile web applications.</p>
+                            <a className="animate__animated animate__fadeInLeft button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhite" href="/Services" style={{ animationDuration: '1.5s', animationDelay: '2s' }}>Learn More</a>
+                        </div>
 
-                        {/* {slideData.map((data) => {
-                                return (
-                                    <>
-                                        <img src={data.image1} alt="" />
-                                        <img src={data.image2} alt="" />
-                                        <img src={data.image3} alt="" />
-                                        <h1 className='slide1p1'>{data.p1}</h1>
-                                        <p className='slide1p2'>{data.p2}</p>
-                                        <p className='slide1p3'>{data.p3}</p>
-
-                                    </>
-                                )
-                            })} */}
-
-
-                        {/* <div className="embla__slide slide2">
+                        <div className="embla__slide slide2">
                             <img src="/slider/development.jpg" alt="development" />
-                            <p className='slide2p1'>Content Management Systems</p>
-                            <p className='slide2p2'>Joomla, Wordpress, <br />Drupal, Custom</p>
-                            <p className='slide2p3'>Skins for open source or custom developed <br />solutions, we design and you control</p>
-                            <a className="button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhite" href="/Services">Learn More</a>
-                        </div> */}
+                            <p className='animate__animated animate__fadeInLeft  slide2p1' style={{ animationDuration: '1s', animationDelay: '7s' }}>Content Management Systems</p>
+                            <p className='animate__animated animate__fadeInLeft slide2p2' style={{ animationDuration: '1.5s', animationDelay: '7s' }}>Joomla, Wordpress, <br />Drupal, Custom</p>
+                            <p className='animate__animated animate__fadeInLeft slide2p3' style={{ animationDuration: '2s', animationDelay: '7s' }}>Skins for open source or custom developed <br />solutions, we design and you control</p>
+                            <a className="animate__animated animate__fadeInLeft button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhite" href="/Services" style={{ animationDuration: '2s', animationDelay: '8s' }}>Learn More</a>
+                        </div>
 
-                        {/* <div className="embla__slide slide3"> */}
-                        {/* <img src="/slider/slide-3.jpg" alt="slide" /> */}
-                        {/* <img src="/slider/laptop.png" alt="laptop" />
-                            <img src="/slider/e-commerce.png" alt="e-commerce" /> */}
-                        {/* <p className='slide3p1'>E Commerce</p>
-                            <p className='slide3p2'>Maximize Your online business</p>
-                            <p className='slide3p3'> We help you convert ideas into an online business, <br />weather it be a custom solution or harnessing the <br />power of an open source solution</p>
-                            <a className="button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhite" href="/Ecommerce">Learn More</a> */}
-                        {/* {carousalslide3.map((data) => {
-                                return (
-                                    <>
-                                        <img src={data.image1} alt="" />
-                                        <img src={data.image2} alt="" />
-                                        <h1 className='slide3p1'>{data.p1}</h1>
-                                        <p className='slide3p2'>{data.p2}</p>
-                                        <p className='slide3p3'>{data.p3}</p>
+                        <div className="embla__slide slide3">
+                            <img src="/slider/slide-3.jpg" alt="slide" />
+                            <img src="/slider/laptop.png" alt="laptop" className='animate__animated animate__fadeInRight slide3img1' style={{ animationDuration: '1s', animationDelay: '14s' }} />
+                            <img src="/slider/e-commerce.png" alt="e-commerce" className='animate__animated animate__fadeInRight slide3img2' style={{ animationDuration: '2s', animationDelay: '15s' }}/>
+                            <p className='animate__animated animate__fadeInLeft slide3p1' style={{ animationDuration: '1s', animationDelay: '14s' }}>E Commerce</p>
+                            <p className='animate__animated animate__fadeInLeft slide3p2' style={{ animationDuration: '1.5s', animationDelay: '14s' }}>Maximize Your online business</p>
+                            <p className='animate__animated animate__fadeInLeft slide3p3' style={{ animationDuration: '2s', animationDelay: '14s' }}> We help you convert ideas into an online business, <br />weather it be a custom solution or harnessing the <br />power of an open source solution</p>
+                            <a className="animate__animated animate__fadeInLeft button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhite" href="/Ecommerce" style={{ animationDuration: '1.5s', animationDelay: '15s' }}>Learn More</a>
+                        </div>
 
-                                    </>
-                                )
-                            })} */}
-
-
-                        {/* </div> */}
-
-
-
-
-                        {/* <div className="embla__slide slide4">  
+                        <div className="embla__slide slide4">
                             <img src="/slider/slider-bg.jpg" alt="slide" />
-                            <p className='slide4p1'>Software Outsourcing</p>
-                            <p className='slide4p2'> Development, <br />Maintenance, Migration</p>
-                            <p className='slide4p3'> Creative and cost effective custom software solutions in <br /> multiple technologies. We partner with you to provide reliable and <br /> quality services to enable you to focus and develop <br /> your core business.</p>
-                            <a className="button1 btn-fs-18 blue-1 fwn lh1 bg-blue btn-tfc btn-br4 hwhite hbgblue" href="/Services">Learn More</a>
-                        </div> */}
+                            <p className='animate__animated animate__fadeInLeft slide4p1' style={{ animationDuration: '1s', animationDelay: '21s' }}>Software Outsourcing</p>
+                            <p className='animate__animated animate__fadeInLeft slide4p2' style={{ animationDuration: '1.5s', animationDelay: '21s' }}> Development, <br />Maintenance, Migration</p>
+                            <p className='animate__animated animate__fadeInLeft slide4p3' style={{ animationDuration: '2s', animationDelay: '21s' }}> Creative and cost effective custom software solutions in <br /> multiple technologies. We partner with you to provide reliable and <br /> quality services to enable you to focus and develop <br /> your core business.</p>
+                            <a className="animate__animated animate__fadeInLeft button1 btn-fs-18 blue-1 fwn lh1 bg-blue btn-tfc btn-br4 hwhite hbgblue" href="/Services" style={{ animationDuration: '1.5s', animationDelay: '22s' }}>Learn More</a>
+                        </div>
+                        
                     </div>
                 </div>
                 {/* <Carousal /> */}
@@ -166,7 +78,7 @@ export default function Home() {
                                 <h1 className='ourservices'>Our Services</h1>
                                 <div className="title-divider">
                                     <div className="line"></div>
-                                    <i className="fa fa-star-o ourservicesstar" ></i>
+                                    <i className="fa fa-star ourservicesstar" ></i>
                                     <div className="line"></div>
                                 </div>
                             </div>
@@ -429,7 +341,7 @@ export default function Home() {
                     </div>
                 </section>
             </div >
-            <Partnersection  />
+            <Partnersection />
             <Socialsection />
             <Footersection />
         </>
