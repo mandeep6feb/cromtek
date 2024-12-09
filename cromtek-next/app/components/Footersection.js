@@ -40,15 +40,15 @@ export default function Footersection() {
                     </div>
                     <div className="footer-menu">
                         <ul className="su_menu">
-                            <li><a href="services#custom_solution">ERP Solutions</a></li>
-                            <li><a href="services#web_application">Web Development</a></li>
+                            <li><a href="/Services">ERP Solutions</a></li>
+                            <li><a href="/Services">Web Development</a></li>
                             <li><Link href="/Mobileapp">Mobile Application</Link></li>
-                            <li><a href="services#maintenance_and_support">Maintenance and Support</a></li>
-                            <li><a href="services#Enterprise">Enterprise Solution</a></li>
-                            <li><a href="services#advisory">IT Advisory Services</a></li>
-                            <li><a href="services#Business">Business Process</a></li>
-                            <li><a href="services#Governance">Governance and Compliances</a></li>
-                            <li><a href="services#Resource">Resource Augmentations</a></li>
+                            <li><a href="/Services">Maintenance and Support</a></li>
+                            <li><a href="/Services">Enterprise Solution</a></li>
+                            <li><a href="/Services">IT Advisory Services</a></li>
+                            <li><a href="/Services">Business Process</a></li>
+                            <li><a href="/Services">Governance and Compliances</a></li>
+                            <li><a href="/Services">Resource Augmentations</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,11 +58,11 @@ export default function Footersection() {
                     </div>
                     <div className="footer-menu">
                         <ul className="su_menu">
-                            <li><a href="solutions.html">SAP Solutions</a></li>
-                            <li><a href="solutions#omni_channel_solutions">Omni Channel Solutions</a></li>
-                            <li><a href="solutions#HRMS_and_Payroll">HRMS and Payroll</a></li>
-                            <li><a href="solutions#School_Management_System">School Management System</a></li>
-                            <li><a href="solutions#Hospital_Management_System">Hospital Management System</a></li>
+                            <li><a href="/Solution">SAP Solutions</a></li>
+                            <li><a href="/Solution">Omni Channel Solutions</a></li>
+                            <li><a href="/Solution">HRMS and Payroll</a></li>
+                            <li><a href="/Solution">School Management System</a></li>
+                            <li><a href="/Solution">Hospital Management System</a></li>
                         </ul>
                     </div>
                 </div>

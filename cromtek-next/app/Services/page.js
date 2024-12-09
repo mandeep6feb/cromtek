@@ -58,13 +58,13 @@ export default function Services(){
         </section>
         <section className="content_info padding-bottom-50 padding-top-50">
             <div className="paddings">
-                <div className="container">
+                <div className="container ">
 
-                    <div className="row" id='Services#webDevelopment'>
+                    <div className="row " id='Services#webDevelopment'>
                         <div className="col-md-8">
                             <div id="web_cont">
                                 <h2>Web Application Development</h2>
-                                <p className="service-p">We are into web development since last 14 years having delivered numerous high quality websites which work equally well on browsers and mobiles phones. We have been quick to adopt technology which is providing enhanced
+                                <p className="service-p">We are into web development since last 4 years having delivered numerous high quality websites which work equally well on browsers and mobiles phones. We have been quick to adopt technology which is providing enhanced
                                     capabilities and better visitor experience. We provide quality and affordable services of Web development, Content Management System, E-Commerce Solutions, Enterprise Portal solutions and all type of Custom Web services
                                     to various clients across the globe.</p>
                                 <div id="mobile_app"></div>
@@ -108,7 +108,7 @@ export default function Services(){
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row" id='services#Enterprise'>
                     <div className="col-md-4">
                         <div className="content-img"><img src="/enterprise_final_img.svg" alt="Enterprise Solution Implementations" /></div>
                     </div>
@@ -119,7 +119,7 @@ export default function Services(){
                             with proven SAP ASAP implementation methodology is the hallmark of our SAP implementation services, in the process providing a consistent and quality delivery model, minimal risk, as well as enhanced productivity to every client
                             engagement. Our implementation and deployment services provide strategic business and technical counsel to our customers by way of:
                         </p>
-                        <div id="maintenance_and_support"></div>
+                        <div id="services#maintenance_and_support"></div>
                         <ul className="su_menu">
                             <li>Business process design and harmonization</li>
                             <li>Data standardization and consolidations</li>
@@ -133,13 +133,13 @@ export default function Services(){
                 </div>
 
 
-                <div className="row">
+                <div className="row" id='services#maintenance_and_support'>
                     <div className="col-md-8">
                         <h2>Application Maintenance and Support</h2>
                         <p className="service-p">IT Infrastructure is backbone of an organization. To derive optimal performance it is not enough to design IT Infrastructure and application to desired business outcomes. We must also ensure high availability, high performance
                             and high service levels by putting in place robust IT Services. Our services ensure that your business is managed and operated on 24x7 basis to provide secure and high performance platform for businesses. Our application management(AMS)
                             model has following elements:</p>
-                        <div id="advisory"></div>
+                        <div id="services#advisory"></div>
                         <ul className="su_menu">
                             <li>Enabling clients to be Hands-Off on routine operational issues</li>
                             <li>Focusing on user satisfaction rather and transactions by proactively surveying users at set intervals to understand their issues and take proactive actions.</li>
@@ -157,7 +157,7 @@ export default function Services(){
 
 
 
-                <div className="row">
+                <div className="row" id='services#advisory'>
                     {/* <!--<div className="col-md-4">
 <a id="advisory"><div className="content-img"><img src="images/web-development.png" alt="IT Advisory Services" /></div></a></div>--> */}
                     <div className="col-sm-12">
@@ -166,9 +166,9 @@ export default function Services(){
                             growth and efficiency. It is essential to get sound business advice to ensure right technology is deployed, projects are well conceived, deliveries are , time &amp; cost budgets and technology risks are managed. IT is challenging
                             to get right always and expensive to get wrong not only in terms of money spent on direct and direct costs, but also in lost efficiency and potential regulatory infringements. We guide customer in following areas:
                         </p>
-                        <div id="Business"></div>
+                        <div id="services#Business"></div>
 
-                        <ul className="su_menu">
+                        <ul className="su_menu"id='services#Business'>
                             <li>Development of appropriate IT Strategy</li>
                             <li>Support IT Sourcing and Cost Optimizations </li>
                             <li>Logistics and Supply Chain Issues/Challenges </li>
@@ -178,7 +178,7 @@ export default function Services(){
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row" id='services#Business'>
                     <div className="col-md-12">
                         <div>
                             <h2>Business Process Transformations</h2>
@@ -187,7 +187,7 @@ export default function Services(){
                                 With these needs and have goal specific programs to support businesses.
                             </p>
                             <div id="Governance"></div>
-                            <ul className="su_menu">
+                            <ul className="su_menu" id='services#Governance'>
                                 <li>Business Process Reengineering(BPR) Consulting</li>
                                 <li>System Effectiveness Audits and Improvement Programs System Needs </li>
                                 <li>Evaluation and Development of Technology Roadmap </li>
@@ -197,7 +197,7 @@ export default function Services(){
                     {/* <!--<div className="col-md-4"><a id="Business" className="content-img"><div><img src="images/web-development.png" alt="Business Process Transformations" /></div></a></div>--> */}
                 </div>
 
-                <div className="row">
+                <div className="row" id='services#Governance'>
                     {/* <!--<div className="col-md-4">
 	<a id="Governance"><div className="content-img"><img src="images/web-development.png" alt="Application Governance and Compliances" /></div></a></div>--> */}
                     <div className="col-md-12">
@@ -213,7 +213,7 @@ export default function Services(){
                 </div>
 
 
-                <div className="row">
+                <div className="row" id='services#Resource'>
                     <div className="col-md-12">
                         <div>
                             <h2>Resource Augmentations</h2>
@@ -231,7 +231,7 @@ export default function Services(){
                     </div>
                     {/* <!--<div className="col-md-4"><a id="Resource"><div className="content-img"><img src="images/web-development.png" alt="Resource Augmentations" /></div></a></div>--> */}
                 </div>
-                <div class="row" id="Web3">
+                <div class="row" id="services#Web3">
                     <div class="col-md-12">
                         <div>
                             <h2>Web3 Solution With Smart Wallet</h2>
@@ -252,7 +252,7 @@ export default function Services(){
                     {/* <!--<div class="col-md-4"><a id="Resource"><div class="content-img"><img src="images/web-development.png" alt="Resource Augmentations" /></div></a></div>--> */}
                 </div>
 
-                <div class="row" id="fintech">
+                <div class="row" id="services#fintech">
                     <div class="col-md-12" >
                         <div>
                             <h2>Fintech Solutions</h2>
@@ -274,7 +274,7 @@ export default function Services(){
                     {/* <!--<div class="col-md-4"><a id="Resource"><div class="content-img"><img src="images/web-development.png" alt="Resource Augmentations" /></div></a></div>--> */}
                 </div>
 
-                <div class="row"id="fintech" >
+                <div class="row"id="services#powerbi" >
                     <div class="col-md-12">
                         <div>
                             <h2>Power BI Developer</h2>

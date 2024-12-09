@@ -33,7 +33,7 @@ export default function Home() {
                             <p className="animate__animated animate__fadeInLeft slide1p1" style={{ animationDuration: '1s', animationDelay: '1s' }}>Mobile Applications</p>
                             <p className='animate__animated animate__fadeInLeft slide1p2' style={{ animationDuration: '1.5s', animationDelay: '1s' }}>IOS, Android, <br /> Blackberry, Windows</p>
                             <p className='animate__animated animate__fadeInLeft slide1p3' style={{ animationDuration: '2s', animationDelay: '1s' }}> "Handy"solutions you can carry in your pocket. <br /> We design robust native and mobile web applications.</p>
-                            <a className="animate__animated animate__fadeInLeft button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhite" href="/Services" style={{ animationDuration: '1.5s', animationDelay: '2s' }}>Learn More</a>
+                            <a className="animate__animated animate__fadeInLeft button1 btn-fs-18 bg-blue white fwn lh1 btn-tfc btn-br4 hblue hbgwhit" href="/Services" style={{ animationDuration: '1.5s', animationDelay: '2s' }}>Learn More</a>
                         </div>
 
                         <div className="embla__slide slide2">
@@ -85,21 +85,21 @@ export default function Home() {
                             {/* <!-- section title end -->
 
             <!-- Row fuid--> */}
-                            <div className="row padding-top">
+                            <div className="row padding-top ">
                                 {/* <!-- Item service - 01 --> */}
                                 <div className="col-sm-12 col-md-4 wow  fadeInLeft serviceleft "  >
-                                    <div className="item-service border-right animated">
-                                        <a href="services.html#mobile_app">
-                                            <div className="row head-service">
+                                    <div className="item-service border-right animated ">
+                                        <a href="services.html#mobile_app" >
+                                            <div className="row head-service ">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-mobile-phone"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter">
                                                     <h4>Mobile Applications</h4>
                                                 </div>
                                             </div>
-                                            <p>We specialize in development of Mobile Applications Native or Hybrid Technologies as suitable to given.... </p>
-                                            <div className="readmore"><a href="#mobiledevelopment">read more...</a></div>
+                                           <div className='servicecenter'> <p >We specialize in development of Mobile Applications Native or Hybrid Technologies as suitable to given.... </p></div>
+                                            <div className="readmore servicecenter"><a href="#mobiledevelopment">read more...</a></div>
                                         </a>
                                     </div>
                                 </div>
@@ -113,12 +113,15 @@ export default function Home() {
                                                 <div className="col-md-2">
                                                     <i className="fa fa-globe"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter">
                                                     <h4>Web Development</h4>
                                                 </div>
                                             </div>
-                                            <p>We have been quick to adopt technology which is providing enhanced capabilities and better visitor experience.</p>
-                                            <div className="readmore">read more...</div>
+                                            <div className='servicecenter'>
+                                            <p >We have been quick to adopt technology which is providing enhanced capabilities and better visitor experience.</p>
+                                            </div>
+                                           
+                                            <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
                                 </div>
@@ -132,12 +135,12 @@ export default function Home() {
                                                 <div className="col-md-2">
                                                     <i className="fa fa-cogs"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter ">
                                                     <h4>Custom ERP Solution</h4>
                                                 </div>
                                             </div>
-                                            <p>Often, the software that suits your specific needs simply isnt available on the market. When packaged solutions and....</p>
-                                            <div className="readmore">read more...</div>
+                                            <p className='servicecenter'>Often, the software that suits your specific needs simply isnt available on the market. When packaged solutions and....</p>
+                                            <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
                                 </div>
@@ -151,12 +154,12 @@ export default function Home() {
                                                 <div className="col-md-2">
                                                     <i className="fa fa-industry"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter">
                                                     <h4>Enterprise Solution</h4>
                                                 </div>
                                             </div>
-                                            <p>We have proven records of successful execution of end-to-end SAP/Infor implementations across diverse...</p>
-                                            <div className="readmore">read more...</div>
+                                            <p className='servicecenter'>We have proven records of successful execution of end-to-end SAP/Infor implementations across diverse...</p>
+                                            <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
                                 </div>
@@ -170,12 +173,12 @@ export default function Home() {
                                                 <div className="col-md-2">
                                                     <i className="fa fa-wrench"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter">
                                                     <h4>Maintenance and Support</h4>
                                                 </div>
                                             </div>
-                                            <p>IT Infrastructure is backbone of an organization. To derive optimal performance it is not enough to design....</p>
-                                            <div className="readmore">read more...</div>
+                                            <p className='servicecenter'>IT Infrastructure is backbone of an organization. To derive optimal performance it is not enough to design....</p>
+                                            <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
                                 </div>
@@ -189,12 +192,12 @@ export default function Home() {
                                                 <div className="col-md-2">
                                                     <i className="fa fa-mixcloud"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter">
                                                     <h4>IT Advisory Services</h4>
                                                 </div>
                                             </div>
-                                            <p>An effective, well-managed IT system is one of the most valuable business advantages an organization can secure. ....</p>
-                                            <div className="readmore">read more...</div>
+                                            <p className='servicecenter'>An effective, well-managed IT system is one of the most valuable business advantages an organization can secure. ....</p>
+                                            <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
                                 </div>
@@ -208,12 +211,12 @@ export default function Home() {
                                                 <div className="col-md-2">
                                                     <i className="fa fa-signal"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter">
                                                     <h4>Business Process Transformations</h4>
                                                 </div>
                                             </div>
-                                            <p>Information technology is proving continuously changing possibilities for business improve their productivity....</p>
-                                            <div className="readmore">read more...</div>
+                                            <p className='servicecenter'>Information technology is proving continuously changing possibilities for business improve their productivity....</p>
+                                            <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
                                 </div>
@@ -227,12 +230,12 @@ export default function Home() {
                                                 <div className="col-md-2">
                                                     <i className="fa fa-plane"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter">
                                                     <h4>Governance and Compliances</h4>
                                                 </div>
                                             </div>
-                                            <p>An effective project & program management can help organization in achieving 30-40% higher efficiencies in...</p>
-                                            <div className="readmore">read more...</div>
+                                            <p className='servicecenter'>An effective project & program management can help organization in achieving 30-40% higher efficiencies in...</p>
+                                            <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
                                 </div>
@@ -246,12 +249,12 @@ export default function Home() {
                                                 <div className="col-md-2">
                                                     <i className="fa fa-pencil"></i>
                                                 </div>
-                                                <div className="col-md-10">
+                                                <div className="col-md-10 servicecenter">
                                                     <h4>Resource Augmentations</h4>
                                                 </div>
                                             </div>
-                                            <p>IT Division within organizations need some 30-40 skills to management operations in smooth way. Most of the time these skills....</p>
-                                            <div className="readmore">read more...</div>
+                                            <p className='servicecenter'>IT Division within organizations need some 30-40 skills to management operations in smooth way. Most of the time these skills....</p>
+                                            <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
                                 </div>
@@ -282,14 +285,15 @@ export default function Home() {
                                         <li className="animated">
                                             <div className="row">
                                                 <div className="col-md-5">
-                                                    <div className="line-feature"><i className="fa fa-angle-left"></i></div>
-                                                    <i className="fa fa-mobile cirle-feature"></i>
+                                                    <div className="line-feature "><i className="fa fa-angle-left"></i></div>
+                                                    <i className="fa fa-mobile cirle-feature "></i>
                                                 </div>
-                                                <div className="col-md-7">
-                                                    <div className="text-feature">
-                                                        <a href="solutions.html">
-                                                            <h4>SAP Solutions</h4>
-                                                            Our SAP Practice has a large pool of functional and technical consultants with many man years of combined experience in SAP Consulting,...</a>
+                                                <div className="col-md-7 ">
+                                                    <div className="text-feature ">
+                                                        <a href="solutions.html " >
+                                                            <h4 className='servicecenter'>SAP Solutions</h4>
+                                                            <p className='servicecenter'>
+                                                            Our SAP Practice has a large pool of functional and technical consultants with many man years of combined experience in SAP Consulting,..</p></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -306,7 +310,7 @@ export default function Home() {
                                                 <div className="col-md-7">
                                                     <div className="text-feature">
                                                         <a href="solutions.html#omni_channel_solutions">
-                                                            <h4>Omni Channel Solutions</h4>
+                                                            <h4 className='servicecenter'>Omni Channel Solutions</h4>
                                                             We have been working with different customers to provide solution which take care of their Omni channel strategies and enable...</a>
                                                     </div>
                                                 </div>
@@ -318,13 +322,13 @@ export default function Home() {
                                         <li className="">
                                             <div className="row">
                                                 <div className="col-md-5">
-                                                    <div className="line-feature"><i className="fa fa-angle-left"></i></div>
+                                                    <div className="line-feature servicecenter"><i className="fa fa-angle-left"></i></div>
                                                     <i className="fa fa-bookmark cirle-feature"></i>
                                                 </div>
                                                 <div className="col-md-7">
                                                     <div className="text-feature">
                                                         <a href="solutions.html#HRMS_and_Payroll">
-                                                            <h4>HRMS and Payroll</h4>
+                                                            <h4 className='servicecenter'>HRMS and Payroll</h4>
                                                             Over period of time we studied needs of companies and realized that organization need a web based platform which can cater...</a>
                                                     </div>
                                                 </div>

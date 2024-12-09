@@ -27,7 +27,7 @@ export default function Solution(){
                     {/* <!-- Title --> */}
                     <div className="col-md-9">
                         <h1>Solutions
-                            <span className="subtitle-section">
+                            <span className="subtitle-section sol">
                                 Best Solutions Here
                                 <span className="right"></span>
                             </span>
@@ -61,8 +61,8 @@ export default function Solution(){
                         <div className="col-md-12">
                             <div className="">
                                 {/* <!--<h2>SAP Solutions</h2>--> */}
-                                <div className="row">
-                                    <div className="col-sm-6">
+                                <div className="row" id='solution#sap_solution'>
+                                    <div className="col-sm-6" id='services#sap_solution'>
                                         <div className="form-group">
                                             <h2> SAP -Services Catalogue</h2>
                                             <ul>
@@ -102,7 +102,7 @@ export default function Solution(){
                         </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row" id='solution#omnisolution'>
                         <div className="col-md-4">
                             <div id="mobile_img" className="content-img" ><img src="/omni-channel-solutions.png" alt="Omni Channel Solutions" /></div>
                         </div>
@@ -128,7 +128,7 @@ export default function Solution(){
                     </div>
 
 
-                    <div className="row">
+                    <div className="row" id='solution#HRM_solution'>
                         <div className="col-md-8">
                             <div id="application_cont">
                                 <h2>HRMS and Payroll</h2>
@@ -151,7 +151,7 @@ export default function Solution(){
                         </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row" id='solution#School_management'>
                         <div className="col-md-4">
                             <div className="content-img"><img src="/school_management_img.webp" alt="School Management System" /></div>
                         </div>
@@ -173,7 +173,7 @@ export default function Solution(){
                     </div>
 
 
-                    <div className="row">
+                    <div className="row" id='solution#Hospital_management'>
                         <div className="col-md-8">
                             <h2>Hospital Management System</h2>
                             <p className="service-p">AROGYA is a Web Based Hospital Management system which has been developed targeting various requirements of a multi-specalty Hospitals who are not able to afford high end enterprise class ERP systems but want to streamline
