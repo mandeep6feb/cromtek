@@ -27,7 +27,7 @@ export default function Ecommerce(){
                     {/* <!-- Title --> */}
                     <div className="col-md-10">
                         <h1>E-COMMERCE DESIGN AND DEVELOPMENT
-                            <span className="subtitle-section">
+                            <span className="subtitle-section ">
                                 Your Store Online
                                 <span className="left"></span>
                             <span className="right"></span>

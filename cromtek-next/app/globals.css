@@ -373,15 +373,35 @@ color: white;
       content: '';
   }
   .animated-arrow span{
-    margin-top: 10%;
+    margin-top: 1%;
     position: fixed;
   }
+  .slideLeft{
+    width: 100%;
+  }
+  .slideRight{
+    margin: 0px;
+    width: 100%;
+  }
   .logomenu{
-    z-index: 999;
-    margin-left:30% ;
-    position: fixed;
-    margin-top: -10%;
-   
+    width: 350px;
+    padding: 18px;
+    padding-top: 32px;
+    margin: -48px;
+    /* margin-left: 20px; */
+    padding-left:24% ;
+    z-index: 9999;
+    background-color:white;
+  
+    /* border-bottom: #08dbf3 3px solid; */
+  }
+  .imgsidebar{
+    background-color: white;
+    margin: 0px;
+    width: 110%;
+    padding-top: 0px;
+    justify-content: center;
+    /* border-bottom: #08dbf3 3px solid; */
   }
   .dropdownlink{
     color: rgb(133, 131, 131); 

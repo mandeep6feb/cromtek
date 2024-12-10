@@ -89,7 +89,7 @@ export default function Home() {
                                 {/* <!-- Item service - 01 --> */}
                                 <div className="col-sm-12 col-md-4 wow  fadeInLeft serviceleft "  >
                                     <div className="item-service border-right animated ">
-                                        <a href="services.html#mobile_app" >
+                                        <a href="/Services" >
                                             <div className="row head-service ">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-mobile-phone"></i>
@@ -99,7 +99,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                            <div className='servicecenter'> <p >We specialize in development of Mobile Applications Native or Hybrid Technologies as suitable to given.... </p></div>
-                                            <div className="readmore servicecenter"><a href="#mobiledevelopment">read more...</a></div>
+                                            <div className="readmore servicecenter"><a href="/Services">read more...</a></div>
                                         </a>
                                     </div>
                                 </div>
@@ -108,7 +108,7 @@ export default function Home() {
                 <!-- Item service - 02 --> */}
                                 <div className="col-sm-12 col-md-4 wow fadeInUp serviceup">
                                     <div className="item-service  border-right serviceitem">
-                                        <a href="services.html#web_application">
+                                        <a href="/Services">
                                             <div className="row head-service">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-globe"></i>
@@ -130,7 +130,7 @@ export default function Home() {
                 <!-- Item service - 03 --> */}
                                 <div className="col-sm-12 col-md-4 wow fadeInRight serviceright">
                                     <div className="item-service">
-                                        <a href="services.html#custom_solution">
+                                        <a href="/Services">
                                             <div className="row head-service">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-cogs"></i>
@@ -149,7 +149,7 @@ export default function Home() {
                 <!-- Item service - 04 --> */}
                                 <div className="col-sm-12 col-md-4 wow fadeInRight serviceright">
                                     <div className="item-service border-right">
-                                        <a href="services.html#Enterprise">
+                                        <a href="/Services">
                                             <div className="row head-service">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-industry"></i>
@@ -168,7 +168,7 @@ export default function Home() {
                 <!-- Item service - 05 --> */}
                                 <div className="col-sm-12 col-md-4 wow fadeInLeft serviceleft">
                                     <div className="item-service border-right">
-                                        <a href="services.html#maintenance_and_support">
+                                        <a href="/Services">
                                             <div className="row head-service">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-wrench"></i>
@@ -187,7 +187,7 @@ export default function Home() {
                 <!-- Item service - 06 --> */}
                                 <div className="col-sm-12 col-md-4 wow fadeInRight serviceright">
                                     <div className="item-service">
-                                        <a href="services.html#advisory">
+                                        <a href="/Services">
                                             <div className="row head-service">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-mixcloud"></i>
@@ -206,7 +206,7 @@ export default function Home() {
                 <!-- Item service - 07 --> */}
                                 <div className="col-sm-12 col-md-4 wow fadeInRight serviceright">
                                     <div className="item-service border-right">
-                                        <a href="services.html#Business">
+                                        <a href="/Services">
                                             <div className="row head-service">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-signal"></i>
@@ -225,7 +225,7 @@ export default function Home() {
                 <!-- Item service - 08 --> */}
                                 <div className="col-sm-12 col-md-4 wow fadeInUp serviceup">
                                     <div className="item-service border-right">
-                                        <a href="services.html#Governance">
+                                        <a href="/Services">
                                             <div className="row head-service">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-plane"></i>
@@ -244,7 +244,7 @@ export default function Home() {
                 <!-- Item service - 09 --> */}
                                 <div className="col-sm-12 col-md-4 wow fadeInRight serviceright">
                                     <div className="item-service">
-                                        <a href="services.html#Resource">
+                                        <a href="/Services">
                                             <div className="row head-service">
                                                 <div className="col-md-2">
                                                     <i className="fa fa-pencil"></i>
@@ -290,9 +290,9 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-md-7 ">
                                                     <div className="text-feature ">
-                                                        <a href="solutions.html " >
-                                                            <h4 className='servicecenter'>SAP Solutions</h4>
-                                                            <p className='servicecenter'>
+                                                        <a href="/Solution" >
+                                                            <h4 >SAP Solutions</h4>
+                                                            <p >
                                                             Our SAP Practice has a large pool of functional and technical consultants with many man years of combined experience in SAP Consulting,..</p></a>
                                                     </div>
                                                 </div>
@@ -301,7 +301,7 @@ export default function Home() {
                                         {/* <!-- End Item feature-element  -->
 
                                 <!-- Item feature-element  --> */}
-                                        <li className="">
+                                        <li >
                                             <div className="row">
                                                 <div className="col-md-5">
                                                     <div className="line-feature"><i className="fa fa-angle-left"></i></div>
@@ -309,8 +309,8 @@ export default function Home() {
                                                 </div>
                                                 <div className="col-md-7">
                                                     <div className="text-feature">
-                                                        <a href="solutions.html#omni_channel_solutions">
-                                                            <h4 className='servicecenter'>Omni Channel Solutions</h4>
+                                                        <a href="/Solution">
+                                                            <h4 >Omni Channel Solutions</h4>
                                                             We have been working with different customers to provide solution which take care of their Omni channel strategies and enable...</a>
                                                     </div>
                                                 </div>
@@ -319,16 +319,16 @@ export default function Home() {
                                         {/* <!-- End Item feature-element  -->
 
                                 <!-- Item feature-element  --> */}
-                                        <li className="">
+                                        <li >
                                             <div className="row">
                                                 <div className="col-md-5">
                                                     <div className="line-feature servicecenter"><i className="fa fa-angle-left"></i></div>
                                                     <i className="fa fa-bookmark cirle-feature"></i>
                                                 </div>
-                                                <div className="col-md-7">
+                                                <div className="col-md-7 ">
                                                     <div className="text-feature">
-                                                        <a href="solutions.html#HRMS_and_Payroll">
-                                                            <h4 className='servicecenter'>HRMS and Payroll</h4>
+                                                        <a href="/Solution">
+                                                            <h4 >HRMS and Payroll</h4>
                                                             Over period of time we studied needs of companies and realized that organization need a web based platform which can cater...</a>
                                                     </div>
                                                 </div>

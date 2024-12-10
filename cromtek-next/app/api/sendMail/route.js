@@ -8,7 +8,7 @@ export async function POST(req) {
     const transporter = nodemailer.createTransport({
       host: process.env.EMAIL_HOST,
       port: parseInt(process.env.EMAIL_PORT, 10),
-      secure: false, // Use true for port 465, false for other ports
+      secure: true, // Use true for port 465, false for other ports
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
@@ -24,7 +24,7 @@ export async function POST(req) {
 
     await transporter.sendMail({
       from: email,
-      to: "cromtek@cromteksolutions.info,kohlimandeep06@gmail.com,yogitakohli12345@gmail.com",
+      to: "cromtek@cromteksolutions.info,kohlimandeep06@gmail.com",
       subject: "Form Submission",
       text: message,
     });

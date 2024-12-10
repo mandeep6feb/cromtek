@@ -56,13 +56,22 @@ export default function Navbar() {
         <div>
             <div>
                 <div>
+               
                     {/* <!--================================responsive log and menu==========================================--> */}
                     <div className="sidesmall">
+                   
                         <div className="wsmenuexpandermain slideRight sidemenu">
-                            {
+                       <div className="navbarforsmallscreen">
+                        
+                       {
                                 !isOpen && (
-                                    <div id="navToggle" className="animated-arrow slideLeft " onClick={toggleSidebar}><span></span></div>
+                                    <div id="navToggle" className="animated-arrow slideLeft " onClick={toggleSidebar}><span></span>
+                                     
+                                     <div className="imgsidebar"> <img src='/logo_2.png' className="logomenu"  alt="C Solutions Pvt Ltd" /></div></div>
+
                                 )}
+                                
+                       </div>
                             <div className={`sidebar ${isOpen ? 'open' : ''}`}>
                                 <button className="close-btn" onClick={toggleSidebar}>&times;</button>
                                 <ul className="menu">
@@ -137,10 +146,12 @@ export default function Navbar() {
                                     </li>
 
                                     <li><Link href="/Contact" className="humlink">Contact Us <span className="arrow"></span></Link></li>
-
+                                   
                                 </ul>
+                               
+                        
                             </div>
-                            <Image src='/logo_2.png' className="logomenu" width={208} height={50} alt="C Solutions Pvt Ltd" />
+                           
                         </div>
                     </div>
                     {/* <!--================================HEADER==========================================--> */}
