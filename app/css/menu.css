@@ -1210,9 +1210,10 @@
     .mrginleft .callusicon {
         display: none !important;
     }
-    .wsmenuexpandermain .menuopen {
+    .wsmenuexpandermain {
         left: 240px !important;
         margin-top: 4px !important;
+      
     }
     .smallogo {
         width: 100%;

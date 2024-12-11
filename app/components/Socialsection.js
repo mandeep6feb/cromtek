@@ -2,14 +2,11 @@ import '../css/animations/animate.css'
 import '../css/responsive.css'
 import '../revolution_slider/css/revslider.css'
 import '../css/menu.css'
-// import './css/font-awesome.css'
-// import './css/style.css'
 import '../bootstrap/css/bootstrap.min.css'
 export default function Socialsection(){
     return(
         <>
         <div className="clearfix">
-      
       {/* <!--================================ SOCIAL SECTION ==========================================--> */}
         <section className="social-list">
             <div className="container">

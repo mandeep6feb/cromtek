@@ -2,16 +2,12 @@ import '../css/animations/animate.css'
 import '../css/responsive.css'
 import '../revolution_slider/css/revslider.css'
 import '../css/menu.css'
-// import './css/font-awesome.css'
-// import './css/style.css'
 import '../bootstrap/css/bootstrap.min.css'
 import Link from 'next/link'
 export default function Footersection() {
   return (
     <div className="clearfix">
-      
       {/* <!--================================ FOOTER AREA ==========================================--> */}
-
 <footer className="footer style-1 padding-top-60 bg222">
     <div className="container">
         <div className="footer-main padding-bottom-10">

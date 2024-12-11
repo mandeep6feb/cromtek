@@ -1,28 +1,11 @@
-"use client"
 import '../css/style.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/animations/animate.css'
 import '../css/responsive.css'
-// import '../bootstrap/css/bootstrap.min.css'
-
-import React, { useState, useEffect, useRef } from 'react';
 export default function Partnersection() {
-   
-    const images = [
-        { content: '/partner/ii.png' },
-        { content: '/partner/atam1.png' },
-        { content: '/partner/hospitallogo1.png' },
-        { content: '/partner/abhiyan.png' },
-        { content: '/partner/sambha.png' },
-    ];
-
     return (
         <div>
-
             {/* <!--================================ PARTNER SECTION ==================================--> */}
-
-
-
             <section className="section-gray partner-section padding-top-70 padding-bottom-40">
                 <div className="container">
                     {/* <!-- section container --> */}
@@ -36,7 +19,6 @@ export default function Partnersection() {
                         </div>
                     </div>
                     {/* <!-- section title end --> */}
-
                     <div className='slider'>
                       <div className="slide-track">
                         <div className='slide'>

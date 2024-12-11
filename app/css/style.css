@@ -1330,7 +1330,7 @@ button.btn {
 .content_info ul li,
 .content_info ul,
 .content_info p {
-    text-align: center;
+    text-align:left;
     line-height: 1.4rem;
     margin-top: 20px;
 }

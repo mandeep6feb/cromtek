@@ -503,6 +503,7 @@ color: white;
   }
   .openmenu{
     display: block;
+    background-color: red;
   }
   .wsmenu-submenu {
     list-style: none;
@@ -532,7 +533,7 @@ color: white;
    text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
    
     text-decoration: none;
     padding: 0%;
@@ -547,16 +548,19 @@ color: white;
     cursor: pointer;
   }
   .humlink:hover{
-    color: green;
-    
+    border-left:1px solid cyan ;
+    padding-left: 5px;
   }
   
+  .menu li:hover {
+   background-color: aliceblue;
+   
+  }
   .sidebar .menu li {
-    
     text-align: left;
     gap: 0px;
     border-bottom: 1px solid rgb(220, 216, 216);
-    padding: 0px 20px;
+    padding: 20px 20px;
     margin: 0%;
   
   }
@@ -567,7 +571,7 @@ color: white;
     text-decoration: none;
     font-size: 15px;
     margin: 0%;
-    padding-bottom: 20px;
+   
     display: block;
   }
   
