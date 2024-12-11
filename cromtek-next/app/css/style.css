@@ -756,7 +756,7 @@ a:focus {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    float: left;
+    float: center;
     font-size: 22px;
     border: solid 3px #415153;
 }
@@ -1326,6 +1326,14 @@ button.btn {
         margin-right: auto;
         text-align: center;
     }
+    
+.content_info ul li,
+.content_info ul,
+.content_info p {
+    text-align: center;
+    line-height: 1.4rem;
+    margin-top: 20px;
+}
 }
 
 .detail {

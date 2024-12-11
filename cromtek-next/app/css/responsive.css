@@ -334,9 +334,6 @@
 	    .footer-menu ul.wsmenu-list li {
 	        display: inline-block;
 	    }
-	    .feature-element li .cirle-feature {
-	        float: none;
-	    }
 	    .feature-element li:last-child {
 	        padding-bottom: 40px;
 	    }
@@ -372,6 +369,17 @@
 	    .top-toolbar {
 	        margin-top: 51px;
 	    }
+		.feature-element .text-feature {
+	        text-align: center;
+	    }
+		
+.content_info ul li,
+.content_info ul,
+.content_info p {
+    text-align: center;
+    line-height: 1.4rem;
+    margin-top: 20px;
+}
 	}
 
 	@media screen and (max-width:768px) {
@@ -380,6 +388,9 @@
 		}
 	    .logo {
 	        display: none;
+	    }
+		.feature-element .text-feature {
+	        text-align: center;
 	    }
 	    .feature-item .figure img,
 	    .listing-item .figure img,

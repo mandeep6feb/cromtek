@@ -28,8 +28,8 @@ export default function Home() {
                         <div className="embla__slide slide1">
                             <img src="/slider/slide-3.jpg" alt="Mobile Application" />
                             <img src="/slider/slide-3-1.png" alt="Web Development Company" className='animate__animated animate__fadeInRight slideimg1' style={{ animationDuration: '1s', animationDelay: '0.5s' }} />
-                            <img src="/slider/slide-3-2.png" alt="slide" className='animate__animated animate__fadeInRight slide1img2' style={{ animationDuration: '1.5s', animationDelay: '0.5s' }}/>
-                            <img src="/slider/slide-3-3.png" alt="slide" className='animate__animated animate__fadeInRight slide1img3' style={{ animationDuration: '2s', animationDelay: '0.5s' }}/>
+                            <img src="/slider/slide-3-2.png" alt="slide" className='animate__animated animate__fadeInRight slide1img2' style={{ animationDuration: '1.5s', animationDelay: '0.5s' }} />
+                            <img src="/slider/slide-3-3.png" alt="slide" className='animate__animated animate__fadeInRight slide1img3' style={{ animationDuration: '2s', animationDelay: '0.5s' }} />
                             <p className="animate__animated animate__fadeInLeft slide1p1" style={{ animationDuration: '1s', animationDelay: '1s' }}>Mobile Applications</p>
                             <p className='animate__animated animate__fadeInLeft slide1p2' style={{ animationDuration: '1.5s', animationDelay: '1s' }}>IOS, Android, <br /> Blackberry, Windows</p>
                             <p className='animate__animated animate__fadeInLeft slide1p3' style={{ animationDuration: '2s', animationDelay: '1s' }}> "Handy"solutions you can carry in your pocket. <br /> We design robust native and mobile web applications.</p>
@@ -37,7 +37,7 @@ export default function Home() {
                         </div>
 
                         <div className="embla__slide slide2">
-                            <img src="/slider/development.jpg" alt="development" />
+                            <img src="/slider/development.jpg" alt="development" className='slidesecond' />
                             <p className='animate__animated animate__fadeInLeft  slide2p1' style={{ animationDuration: '1s', animationDelay: '7s' }}>Content Management Systems</p>
                             <p className='animate__animated animate__fadeInLeft slide2p2' style={{ animationDuration: '1.5s', animationDelay: '7s' }}>Joomla, Wordpress, <br />Drupal, Custom</p>
                             <p className='animate__animated animate__fadeInLeft slide2p3' style={{ animationDuration: '2s', animationDelay: '7s' }}>Skins for open source or custom developed <br />solutions, we design and you control</p>
@@ -47,7 +47,7 @@ export default function Home() {
                         <div className="embla__slide slide3">
                             <img src="/slider/slide-3.jpg" alt="slide" />
                             <img src="/slider/laptop.png" alt="laptop" className='animate__animated animate__fadeInRight slide3img1' style={{ animationDuration: '1s', animationDelay: '14s' }} />
-                            <img src="/slider/e-commerce.png" alt="e-commerce" className='animate__animated animate__fadeInRight slide3img2' style={{ animationDuration: '2s', animationDelay: '15s' }}/>
+                            <img src="/slider/e-commerce.png" alt="e-commerce" className='animate__animated animate__fadeInRight slide3img2' style={{ animationDuration: '2s', animationDelay: '15s' }} />
                             <p className='animate__animated animate__fadeInLeft slide3p1' style={{ animationDuration: '1s', animationDelay: '14s' }}>E Commerce</p>
                             <p className='animate__animated animate__fadeInLeft slide3p2' style={{ animationDuration: '1.5s', animationDelay: '14s' }}>Maximize Your online business</p>
                             <p className='animate__animated animate__fadeInLeft slide3p3' style={{ animationDuration: '2s', animationDelay: '14s' }}> We help you convert ideas into an online business, <br />weather it be a custom solution or harnessing the <br />power of an open source solution</p>
@@ -55,13 +55,12 @@ export default function Home() {
                         </div>
 
                         <div className="embla__slide slide4">
-                            <img src="/slider/slider-bg.jpg" alt="slide" />
+                            <img src="/slider/slider-bg.jpg" alt="slide" className='slideforthimg' />
                             <p className='animate__animated animate__fadeInLeft slide4p1' style={{ animationDuration: '1s', animationDelay: '21s' }}>Software Outsourcing</p>
                             <p className='animate__animated animate__fadeInLeft slide4p2' style={{ animationDuration: '1.5s', animationDelay: '21s' }}> Development, <br />Maintenance, Migration</p>
                             <p className='animate__animated animate__fadeInLeft slide4p3' style={{ animationDuration: '2s', animationDelay: '21s' }}> Creative and cost effective custom software solutions in <br /> multiple technologies. We partner with you to provide reliable and <br /> quality services to enable you to focus and develop <br /> your core business.</p>
                             <a className="animate__animated animate__fadeInLeft button1 btn-fs-18 blue-1 fwn lh1 bg-blue btn-tfc btn-br4 hwhite hbgblue" href="/Services" style={{ animationDuration: '1.5s', animationDelay: '22s' }}>Learn More</a>
                         </div>
-                        
                     </div>
                 </div>
                 {/* <Carousal /> */}
@@ -98,7 +97,7 @@ export default function Home() {
                                                     <h4>Mobile Applications</h4>
                                                 </div>
                                             </div>
-                                           <div className='servicecenter'> <p >We specialize in development of Mobile Applications Native or Hybrid Technologies as suitable to given.... </p></div>
+                                            <div className='servicecenter'> <p >We specialize in development of Mobile Applications Native or Hybrid Technologies as suitable to given.... </p></div>
                                             <div className="readmore servicecenter"><a href="/Services">read more...</a></div>
                                         </a>
                                     </div>
@@ -118,9 +117,9 @@ export default function Home() {
                                                 </div>
                                             </div>
                                             <div className='servicecenter'>
-                                            <p >We have been quick to adopt technology which is providing enhanced capabilities and better visitor experience.</p>
+                                                <p >We have been quick to adopt technology which is providing enhanced capabilities and better visitor experience.</p>
                                             </div>
-                                           
+
                                             <div className="readmore servicecenter">read more...</div>
                                         </a>
                                     </div>
@@ -259,6 +258,62 @@ export default function Home() {
                                     </div>
                                 </div>
                                 {/* <!-- End Item service - 01 --> */}
+                                {/* <!-- Item service - 10 --> */}
+                                <div className="col-sm-12 col-md-4 wow  serviceleft">
+                                    <div className="item-service">
+                                        <a href="services.html#Web3">
+                                            <div className="row head-service">
+                                                <div className="col-md-2">
+                                                    <i className="fa-solid fa-infinity"></i>
+                                                </div>
+                                                <div className="col-md-10 servicecenter">
+                                                    <h4>Web3 Solution With Smart Wallet</h4>
+                                                </div>
+                                            </div>
+                                            <p>Decentralizing the digital landscape with cutting-edge blockchain technology, secure smart contracts, and innovative dApps.....</p>
+                                            <div className="readmore servicecenter">read more...</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                {/* <!-- End Item service - 01 --> */}
+                                {/* <!-- Item service - 11 --> */}
+                                <div className="col-sm-12 col-md-4 wow  serviceup">
+                                    <div className="item-service">
+                                        <a href="services.html#fintech">
+                                            <div className="row head-service">
+                                                <div className="col-md-2">
+                                                    <i className="fa-brands fa-connectdevelop"></i>
+                                                </div>
+                                                <div className="col-md-10 servicecenter">
+                                                    <h4>Fintech Solutions</h4>
+                                                </div>
+                                            </div>
+                                            <p>Revolutionizing Financial Technology for You, in today’s fast-paced world, financial technology (Fintech) .....</p>
+                                            <div className="readmore servicecenter">read more...</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                {/* <!-- End Item service - 11 --> */}
+
+                                {/* <!-- Item service - 12 --> */}
+                                <div className="col-sm-12 col-md-4 wow fadeInRight serviceright">
+                                    <div className="item-service">
+                                        <a href="services.html#fintech">
+                                            <div className="row head-service">
+                                                <div className="col-md-2">
+                                                    <i className="fa-brands fa-superpowers"></i>
+                                                </div>
+                                                <div className="col-md-10 servicecenter">
+                                                    <h4>Power BI Developer</h4>
+                                                </div>
+                                            </div>
+                                            <p>
+                                                Transform Your Data into Actionable Insights with Our Power BI Development Services, unlock the true potential.....</p>
+                                            <div className="readmore servicecenter">read more...</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                {/* <!-- End Item service - 12 --> */}
                             </div>
                             {/* <!-- End Row fuid--> */}
                         </div>
@@ -280,9 +335,9 @@ export default function Home() {
 
                                 {/* <!-- features-elementns  --> */}
                                 <div className="col-md-7 padding-top-60 wow fadeInRight serviceright">
-                                    <ul className="feature-element">
+                                    <ul className="feature-element element-featire" >
                                         {/* <!-- Item feature-element  --> */}
-                                        <li className="animated">
+                                        <li className="element-featire animated">
                                             <div className="row">
                                                 <div className="col-md-5">
                                                     <div className="line-feature "><i className="fa fa-angle-left"></i></div>
@@ -293,7 +348,7 @@ export default function Home() {
                                                         <a href="/Solution" >
                                                             <h4 >SAP Solutions</h4>
                                                             <p >
-                                                            Our SAP Practice has a large pool of functional and technical consultants with many man years of combined experience in SAP Consulting,..</p></a>
+                                                                Our SAP Practice has a large pool of functional and technical consultants with many man years of combined experience in SAP Consulting,..</p></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -301,7 +356,7 @@ export default function Home() {
                                         {/* <!-- End Item feature-element  -->
 
                                 <!-- Item feature-element  --> */}
-                                        <li >
+                                        <li className=" element-featire">
                                             <div className="row">
                                                 <div className="col-md-5">
                                                     <div className="line-feature"><i className="fa fa-angle-left"></i></div>
@@ -311,7 +366,7 @@ export default function Home() {
                                                     <div className="text-feature">
                                                         <a href="/Solution">
                                                             <h4 >Omni Channel Solutions</h4>
-                                                            We have been working with different customers to provide solution which take care of their Omni channel strategies and enable...</a>
+                                                            <p>We have been working with different customers to provide solution which take care of their Omni channel strategies and enable...</p></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -319,17 +374,17 @@ export default function Home() {
                                         {/* <!-- End Item feature-element  -->
 
                                 <!-- Item feature-element  --> */}
-                                        <li >
+                                        <li className=" element-featire">
                                             <div className="row">
                                                 <div className="col-md-5">
                                                     <div className="line-feature servicecenter"><i className="fa fa-angle-left"></i></div>
-                                                    <i className="fa fa-bookmark cirle-feature"></i>
+                                                    <i className="fa fa-bookmark cirle-feature aligncenter"></i>
                                                 </div>
                                                 <div className="col-md-7 ">
                                                     <div className="text-feature">
                                                         <a href="/Solution">
                                                             <h4 >HRMS and Payroll</h4>
-                                                            Over period of time we studied needs of companies and realized that organization need a web based platform which can cater...</a>
+                                                            <p>Over period of time we studied needs of companies and realized that organization need a web based platform which can cater...</p></a>
                                                     </div>
                                                 </div>
                                             </div>
